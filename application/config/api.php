@@ -7,8 +7,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |--------------------------------------------------------------------------
 */
 
-define('API_REST_URL', 'http://alp-api.hahalolo.com:8080');
-define('API_ES_URL', 'http://esapi.hahalolo.com:3000');
+// define('API_REST_URL', 'http://alp-api.hahalolo.com:8080');
+define('API_REST_URL', 'http://dev-core-api.hahalolo.com:8080');
+// define('API_ES_URL', 'http://esapi.hahalolo.com:3000');
+define('API_ES_URL', 'http://dev-es-api.hahalolo.com:3000');
 define('API_MAX_TIMEOUT', 3.0); // 3s
 
 /*
