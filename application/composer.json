@@ -1,0 +1,25 @@
+{
+  "description": "Hahalolo Backend",
+  "name": "hahalolo/backend",
+  "type": "project",
+  "homepage": "https://hahalolo.com",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=5.6",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "suggest": {
+    "paragonie/random_compat": "Provides better randomness in PHP 5.x"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "composer dump-autoload"
+    ]
+  }
+}
